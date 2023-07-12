@@ -12,6 +12,7 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     letter-spacing: 2px;
+    padding-bottom: 50px;
 }
 
 footer a{
@@ -133,7 +134,14 @@ h1{
 .ingridients-list{}
 
 
+
+
 @media only screen and (max-width: 900px) {
+
+    .photo-wrapper img{
+        width: 70%;
+        margin-bottom:100px;
+    }
 
    .random-cocktail-texts{
     margin-top: 0px;
